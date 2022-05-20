@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 plt.style.use('seaborn')
 
 
-st.title('cities')
+st.title('housing data by danny fountain')
 df_housing = pd.read_csv('housing.csv')
 
 p_filter = st.slider('house values', 0,500001, 200000) 
