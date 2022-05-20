@@ -25,19 +25,11 @@ with st.echo():
 
 ## Loading the Dataset
 
-
-
-
-
 with st.echo():
 
     from sklearn.datasets import fetch_california_housing
 
     housing = fetch_california_housing()
-
-
-
-This will load the entire data in the `housing` variable as you can see below
 
 
 
