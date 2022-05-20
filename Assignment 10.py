@@ -36,4 +36,5 @@ st.map(df_housing)
 st.subheader('Total Population by Country')
 fig, ax = plt.subplots()
 df_housing.median_house_value.hist(bins=30, ax=ax)
-st.pyplot(fig, ax)
+st.pyplot(fig)
+
